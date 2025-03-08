@@ -22,6 +22,7 @@ public:
             cout<<real<<'+'<<ima<<'i'<<endl;
             cout << "cut" << endl;
             cout << "cut" << endl;
+            cout << "cut" << endl;
         }
     }
 };

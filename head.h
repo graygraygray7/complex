@@ -48,7 +48,7 @@ private:
 	int d;
 	int day;
 	bool leap;
-	friend Data;
+	// friend Data;
 	int mo[12] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 public:
 	Data() = default;
@@ -57,4 +57,28 @@ public:
 	int days(Data s);
 	const bool com(Data);
 	
+};
+
+class Point {
+public:
+	Point(int xx = 0, int yy = 0) {
+		x = xx;
+		y = yy;
+	}
+	Point(const Point &p);
+	int getX() const { return x; }
+	int getY() const { return y; }
+	string getChar() const;
+private:
+	int x, y;
+};
+class Line {
+public:
+	Line(const Point &xp1, const Point &xp2);
+	Line(const Line &l);
+	double getLen() const{ return len; }
+	~Line();
+private:
+	Point p1, p2;
+	double len;
 };

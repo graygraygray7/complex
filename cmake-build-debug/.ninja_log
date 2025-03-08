@@ -1,3 +1,9 @@
 # ninja log v6
-12	953	7630384919998307	CMakeFiles/cpp0305_clion.dir/main.cpp.obj	1b51fc1355cf948d
+7	816	7631125349700717	CMakeFiles/cpp0305_clion.dir/main.cpp.obj	1b51fc1355cf948d
+156	902	7631125351191614	CMakeFiles/cpp0305_clion.dir/lab4_1.cpp.obj	e7003212006aea90
 954	1247	7630384929418333	cpp0305_clion.exe	5f10358bac5532ca
+111	812	7631125350746288	CMakeFiles/cpp0305_clion.dir/C_Complex.cpp.obj	cb47c0a69371d95e
+133	830	7631125350966266	CMakeFiles/cpp0305_clion.dir/C_Dice.cpp.obj	1c6ec16e58ba9dd9
+89	494	7631125350526315	CMakeFiles/cpp0305_clion.dir/C_sm.cpp.obj	c8e0dbbe684011f1
+280	922	7631125352436885	CMakeFiles/cpp0305_clion.dir/lab4_3.cpp.obj	4cc4c7a646bc7c05
+179	949	7631125351421559	CMakeFiles/cpp0305_clion.dir/lab4_2.cpp.obj	207769fa5ae50166

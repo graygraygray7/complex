@@ -2,21 +2,9 @@
 #include <iostream>
 #include <cmath>
 #include<string>
+#include"head.h"
 using namespace std;
 
-class Point {
-public:
-    Point(int xx = 0, int yy = 0) {
-        x = xx;
-        y = yy;
-    }
-    Point(const Point &p);
-    int getX() const { return x; }
-    int getY() const { return y; }
-    string getChar() const;
-private:
-    int x, y;
-};
 Point::Point(const Point &p) {
     x = p.x;
     y = p.y;
@@ -26,16 +14,6 @@ string Point::getChar() const {
     return string("(" + to_string(x) + "," + to_string(y) + ")");
 }
 
-class Line {
-public:
-    Line(const Point &xp1, const Point &xp2);
-    Line(const Line &l);
-    double getLen() const{ return len; }
-    ~Line();
-private:
-    Point p1, p2;
-    double len;
-};
 Line::Line(const Point &xp1, const Point &xp2) : p1(xp1), p2(xp2) {
     cout << "Calling constructor of Line" << endl;
     double x = p1.getX() - p2.getX();
@@ -48,7 +26,6 @@ Line::Line (const Line &l): p1(l.p1), p2(l.p2) {
 }
 Line::~Line() {
     cout << "Calling the destructor of Line" << p1.getChar() <<" "<< p2.getChar() << endl;
-    cout << "hello" << endl;
 }
 
 //主函数

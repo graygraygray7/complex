@@ -20,6 +20,7 @@ public:
         }
         else {
             cout<<real<<'+'<<ima<<'i'<<endl;
+            cout << "cut" << endl;
         }
     }
 };

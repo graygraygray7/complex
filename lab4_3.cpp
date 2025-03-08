@@ -54,7 +54,7 @@ People::People(People& p) {
 	cout << number << sex << endl;
 }
 
-int main2() {
+int main() {
 	Data d1(2030, 4, 1);
 	People fool(114514, true, d1);
 	People Alice = fool;

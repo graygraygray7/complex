@@ -48,6 +48,7 @@ Line::Line (const Line &l): p1(l.p1), p2(l.p2) {
 }
 Line::~Line() {
     cout << "Calling the destructor of Line" << p1.getChar() <<" "<< p2.getChar() << endl;
+    cout << "hello" << endl;
 }
 
 //主函数

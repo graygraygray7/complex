@@ -23,6 +23,8 @@ public:
             cout << "cut" << endl;
             cout << "cut" << endl;
             cout << "cut" << endl;
+            cout << "cut" << endl;
+            cout << "cut" << endl;
         }
     }
 };
